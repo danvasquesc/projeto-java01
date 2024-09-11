@@ -1,5 +1,7 @@
 package curso.java.dan;
 
+import java.util.Date;
+
 public class Pessoa {
 	
 	private String nome;
@@ -11,6 +13,14 @@ public class Pessoa {
 	private Date dataNascimento;
 	
 	private Date dataCadastro;
+
+	public Date getDataCadastro() {
+		return dataCadastro;
+	}
+
+	public void setDataCadastro(Date dataCadastro) {
+		this.dataCadastro = dataCadastro;
+	}
 
 	public int getIdade() {
 		return idade;
