@@ -13,6 +13,18 @@ public class Pessoa {
 	private Date dataNascimento;
 	
 	private Date dataCadastro;
+	
+	
+	public Date getInicioCurso() {
+		return inicioCurso;
+	}
+
+	public void setInicioCurso(Date inicioCurso) {
+		this.inicioCurso = inicioCurso;
+	}
+
+	private Date inicioCurso;
+	
 
 	public Date getDataCadastro() {
 		return dataCadastro;
