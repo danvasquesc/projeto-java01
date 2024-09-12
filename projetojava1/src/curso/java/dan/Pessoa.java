@@ -3,18 +3,15 @@ package curso.java.dan;
 import java.util.Date;
 
 public class Pessoa {
-	
+
 	private String nome;
-	
+
 	private String sobrenome;
-	
+
 	private int idade;
-	
+
 	private Date dataNascimento;
-	
-	private Date dataCadastro;
-	
-	
+
 	public Date getInicioCurso() {
 		return inicioCurso;
 	}
@@ -24,15 +21,6 @@ public class Pessoa {
 	}
 
 	private Date inicioCurso;
-	
-
-	public Date getDataCadastro() {
-		return dataCadastro;
-	}
-
-	public void setDataCadastro(Date dataCadastro) {
-		this.dataCadastro = dataCadastro;
-	}
 
 	public int getIdade() {
 		return idade;
@@ -65,7 +53,5 @@ public class Pessoa {
 	public void setSobrenome(String sobrenome) {
 		this.sobrenome = sobrenome;
 	}
-	
-	
 
 }
