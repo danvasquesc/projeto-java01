@@ -12,9 +12,6 @@ public class Pessoa {
 	
 	private Date dataNascimento;
 	
-	private Date dataCadastro;
-	
-	private Date conclusaoCurso;
 
 	public Date getDataCadastro() {
 		return dataCadastro;
@@ -55,7 +52,6 @@ public class Pessoa {
 	public void setSobrenome(String sobrenome) {
 		this.sobrenome = sobrenome;
 	}
-	
 	
 
 }
